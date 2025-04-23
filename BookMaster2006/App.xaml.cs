@@ -13,5 +13,6 @@ namespace BookMaster2006
     /// </summary>
     public partial class App : Application
     {
+        public static BookMasterEntities context = new BookMasterEntities();
     }
 }
